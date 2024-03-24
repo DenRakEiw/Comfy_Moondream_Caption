@@ -3,7 +3,8 @@ Comfy Moondream Caption (Dataset Caption Tool for Comfyui)
 
 Welcome to Comfy Moondream Caption, a tool designed to generate captions for images using a local LMM. Follow the steps below to get started:
 
-![Moondream_02](https://github.com/DenRakEiw/Comfy_Moondream_Caption/assets/89697885/a6103acc-f54f-4b56-9d3c-d0f9e56fef64)
+![Moondream_01](https://github.com/DenRakEiw/Comfy_Moondream_Caption/assets/89697885/ec37a780-5571-4e21-83fb-5f0a7c5d9aa6)
+
 
 
 Select Image Folder:
