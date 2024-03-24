@@ -51,4 +51,10 @@ After the caption generation process is complete, it's essential to reset the st
 
 Repeat for Additional Datasets:
 
-If you have more datasets to analyze, repeat the process by selecting a new folder containing images and following steps 2 to 5.
+If you have more datasets to analyze, repeat the process by selecting a new folder containing images.
+
+
+Installation:
+
+To set up this workflow, you'll need the ComfyUI Moondream custom nodes developed by Kijai.
+You can find them at: https://github.com/kijai/ComfyUI-moondream
