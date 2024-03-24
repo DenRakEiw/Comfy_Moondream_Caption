@@ -3,9 +3,11 @@ Comfy Moondream Caption (Dataset Caption Tool for Comfyui)
 
 Welcome to Comfy Moondream Caption, a tool designed to generate captions for images using a local LMM. Follow the steps below to get started:
 
-![Moondream_01](https://github.com/DenRakEiw/Comfy_Moondream_Caption/assets/89697885/ec37a780-5571-4e21-83fb-5f0a7c5d9aa6)
+![Moondream_05](https://github.com/DenRakEiw/Comfy_Moondream_Caption/assets/89697885/fa57ae7e-1bf7-4e1d-8165-3d532b5c1c95)
 
 
+
+The workflow works for datasets with up to 9999 images.
 
 Select Image Folder:
 
@@ -15,7 +17,7 @@ Navigate to the "folder_path" option and select the folder where your images are
 
 Naming Convention:
 
-Ensure that the images in the selected folder are sequentially numbered, such as "1.png", "2.png", and so on. This numbering is crucial for proper processing.
+Ensure that the images in the selected folder are sequentially numbered, such as "0001.png", "0002.png", and so on. This numbering is crucial for proper processing.
 
 
 
@@ -24,6 +26,9 @@ Enable Batch Captioning:
 To enable batch captioning, go to the "Extra Options" section in the Comfy UI.
 
 Select "Auto Queue" to ensure that captions are generated for all images in the selected folder.
+
+![Moondream_07](https://github.com/DenRakEiw/Comfy_Moondream_Caption/assets/89697885/716675ea-0125-452f-950f-4ae68dc9a8a2)
+
 
 
 
