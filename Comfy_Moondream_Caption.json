@@ -1,26 +1,578 @@
 {
-  "last_node_id": 65,
-  "last_link_id": 49,
+  "last_node_id": 101,
+  "last_link_id": 93,
   "nodes": [
     {
-      "id": 4,
-      "type": "MoondreamQueryCaptions",
+      "id": 42,
+      "type": "Note",
       "pos": [
-        900,
-        130
+        500,
+        -460
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 43,
+      "type": "Note",
+      "pos": [
+        710,
+        -260
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 44,
+      "type": "Note",
+      "pos": [
+        710,
+        -630
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 45,
+      "type": "Note",
+      "pos": [
+        920,
+        -630
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 46,
+      "type": "Note",
+      "pos": [
+        1130,
+        -430
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 47,
+      "type": "Note",
+      "pos": [
+        1330,
+        -430
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 48,
+      "type": "Note",
+      "pos": [
+        1530,
+        -630
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 49,
+      "type": "Note",
+      "pos": [
+        1740,
+        -630
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 50,
+      "type": "Note",
+      "pos": [
+        1940,
+        -430
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 51,
+      "type": "Note",
+      "pos": [
+        1730,
+        -260
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#332922",
+      "bgcolor": "#593930"
+    },
+    {
+      "id": 52,
+      "type": "Note",
+      "pos": [
+        500,
+        -820
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 53,
+      "type": "Note",
+      "pos": [
+        920,
+        -820
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 55,
+      "type": "Note",
+      "pos": [
+        1330,
+        -820
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 56,
+      "type": "Note",
+      "pos": [
+        1530,
+        -820
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 57,
+      "type": "Note",
+      "pos": [
+        1940,
+        -820
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 58,
+      "type": "Note",
+      "pos": [
+        1740,
+        -1010
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 59,
+      "type": "Note",
+      "pos": [
+        1530,
+        -1010
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 60,
+      "type": "Note",
+      "pos": [
+        1330,
+        -1010
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 61,
+      "type": "Note",
+      "pos": [
+        1130,
+        -1010
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 62,
+      "type": "Note",
+      "pos": [
+        920,
+        -1010
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 19,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 63,
+      "type": "Note",
+      "pos": [
+        710,
+        -1010
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 64,
+      "type": "Note",
+      "pos": [
+        920,
+        -1200
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 65,
+      "type": "Note",
+      "pos": [
+        1530,
+        -1200
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 54,
+      "type": "Note",
+      "pos": [
+        1130,
+        -820
+      ],
+      "size": {
+        "0": 210,
+        "1": 158.2581329345703
+      },
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 78,
+      "type": "MoondreamQuery",
+      "pos": [
+        838.9165241201024,
+        131.27357018829346
       ],
       "size": {
         "0": 400,
         "1": 200
       },
       "flags": {},
-      "order": 31,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
           "name": "images",
           "type": "IMAGE",
-          "link": 6
+          "link": 74
         }
       ],
       "outputs": [
@@ -28,14 +580,14 @@
           "name": "text",
           "type": "STRING",
           "links": [
-            4
+            75
           ],
           "shape": 3,
           "slot_index": 0
         }
       ],
       "properties": {
-        "Node name for S&R": "MoondreamQueryCaptions"
+        "Node name for S&R": "MoondreamQuery"
       },
       "widgets_values": [
         "What is this?",
@@ -45,26 +597,140 @@
       ]
     },
     {
-      "id": 5,
-      "type": "ttN textDebug",
+      "id": 68,
+      "type": "CR Prompt Text",
       "pos": [
-        1330,
-        130
+        70.91652412010184,
+        561.2735701882934
       ],
-      "size": [
-        387.3048992429251,
-        185.71539984172102
-      ],
+      "size": {
+        "0": 389.37420654296875,
+        "1": 96
+      },
       "flags": {},
-      "order": 34,
+      "order": 24,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "links": [
+            72
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "title": "Postfix",
+      "properties": {
+        "Node name for S&R": "CR Prompt Text"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159"
+    },
+    {
+      "id": 67,
+      "type": "CR Prompt Text",
+      "pos": [
+        70.91652412010184,
+        411.27357018829343
+      ],
+      "size": {
+        "0": 389.37420654296875,
+        "1": 96
+      },
+      "flags": {},
+      "order": 25,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "links": [
+            71
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "title": "Prefix",
+      "properties": {
+        "Node name for S&R": "CR Prompt Text"
+      },
+      "widgets_values": [
+        "A1fa"
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159"
+    },
+    {
+      "id": 77,
+      "type": "Text Concatenate (JPS)",
+      "pos": [
+        1271.916524120103,
+        131.27357018829346
+      ],
+      "size": {
+        "0": 315,
+        "1": 178
+      },
+      "flags": {},
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
-          "name": "text",
+          "name": "text1",
           "type": "STRING",
-          "link": 4,
+          "link": 71,
           "widget": {
-            "name": "text"
+            "name": "text1"
+          }
+        },
+        {
+          "name": "text2",
+          "type": "STRING",
+          "link": 75,
+          "widget": {
+            "name": "text2"
+          }
+        },
+        {
+          "name": "text3",
+          "type": "STRING",
+          "link": 72,
+          "widget": {
+            "name": "text3"
+          }
+        },
+        {
+          "name": "text4",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "text4"
+          }
+        },
+        {
+          "name": "text5",
+          "type": "STRING",
+          "link": null,
+          "widget": {
+            "name": "text5"
           }
         }
       ],
@@ -73,66 +739,118 @@
           "name": "text",
           "type": "STRING",
           "links": [
-            38
+            73
           ],
           "shape": 3,
           "slot_index": 0
         }
       ],
       "properties": {
-        "Node name for S&R": "ttN textDebug",
-        "ttNnodeVersion": "1.0."
+        "Node name for S&R": "Text Concatenate (JPS)"
       },
       "widgets_values": [
-        false,
+        "comma",
         "",
-        "Always",
         "",
-        "This is a red sports car with its hood open, parked on the side of a street. The car is positioned in front of a white wall, and it appears to be a sleek and stylish vehicle."
+        "",
+        "",
+        ""
       ]
     },
     {
-      "id": 22,
-      "type": "CR Save Text To File",
+      "id": 7,
+      "type": "LoadImagesFromDir //Inspire",
       "pos": [
-        1740,
-        130
+        490.9165241201024,
+        131.27357018829346
       ],
-      "size": [
-        400,
-        200
-      ],
+      "size": {
+        "0": 315,
+        "1": 170
+      },
       "flags": {},
-      "order": 35,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
-          "name": "multiline_text",
+          "name": "directory",
           "type": "STRING",
-          "link": 38,
+          "link": 49,
           "widget": {
-            "name": "multiline_text"
-          }
+            "name": "directory"
+          },
+          "slot_index": 0
         },
         {
-          "name": "output_file_path",
-          "type": "STRING",
-          "link": 48,
+          "name": "start_index",
+          "type": "INT",
+          "link": 25,
           "widget": {
-            "name": "output_file_path"
+            "name": "start_index"
           },
           "slot_index": 1
-        },
-        {
-          "name": "file_name",
-          "type": "STRING",
-          "link": 36,
-          "widget": {
-            "name": "file_name"
-          }
         }
       ],
       "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            11,
+            74
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        },
+        {
+          "name": "INT",
+          "type": "INT",
+          "links": [],
+          "shape": 3,
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImagesFromDir //Inspire"
+      },
+      "widgets_values": [
+        "",
+        1,
+        0,
+        false
+      ]
+    },
+    {
+      "id": 40,
+      "type": "CR Prompt Text",
+      "pos": [
+        70.91652412010184,
+        131.27357018829346
+      ],
+      "size": {
+        "0": 389.37420654296875,
+        "1": 96
+      },
+      "flags": {},
+      "order": 26,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "links": [
+            49,
+            90
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
         {
           "name": "show_help",
           "type": "STRING",
@@ -140,29 +858,108 @@
           "shape": 3
         }
       ],
+      "title": "folder_path",
       "properties": {
-        "Node name for S&R": "CR Save Text To File"
+        "Node name for S&R": "CR Prompt Text"
       },
       "widgets_values": [
-        "",
-        "E:/",
-        "",
-        "txt"
+        "F:\\StabilityMatrix\\Data\\Packages\\ComfyUI\\output\\al_test"
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 26,
+      "type": "Int to float",
+      "pos": [
+        488.9165241201024,
+        498.27357018829343
+      ],
+      "size": {
+        "0": 315,
+        "1": 58
+      },
+      "flags": {},
+      "order": 32,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "Value",
+          "type": "INT",
+          "link": 30,
+          "widget": {
+            "name": "Value"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "FLOAT",
+          "type": "FLOAT",
+          "links": [
+            31
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "Int to float"
+      },
+      "widgets_values": [
+        0
       ]
+    },
+    {
+      "id": 30,
+      "type": "FloatConstant",
+      "pos": [
+        707.9165241201024,
+        619.2735701882934
+      ],
+      "size": {
+        "0": 210,
+        "1": 58
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 27,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "value",
+          "type": "FLOAT",
+          "links": [
+            32
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "title": "+ 1",
+      "properties": {
+        "Node name for S&R": "FloatConstant"
+      },
+      "widgets_values": [
+        1
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
     },
     {
       "id": 28,
       "type": "SimpleMath+",
       "pos": [
-        960,
-        450
+        845.9165241201024,
+        500.27357018829343
       ],
       "size": {
         "0": 315,
         "1": 78
       },
       "flags": {},
-      "order": 30,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
@@ -206,15 +1003,15 @@
       "id": 31,
       "type": "CR Integer To String",
       "pos": [
-        1330,
-        450
+        1186.916524120103,
+        500.27357018829343
       ],
-      "size": [
-        315,
-        78
-      ],
+      "size": {
+        "0": 315,
+        "1": 78
+      },
       "flags": {},
-      "order": 33,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -231,7 +1028,7 @@
           "name": "STRING",
           "type": "STRING",
           "links": [
-            36
+            91
           ],
           "shape": 3,
           "slot_index": 0
@@ -251,97 +1048,273 @@
       ]
     },
     {
-      "id": 30,
-      "type": "FloatConstant",
+      "id": 100,
+      "type": "CR Text Concatenate",
       "pos": [
-        830,
-        550
-      ],
-      "size": [
-        200,
-        58
-      ],
-      "flags": {
-        "collapsed": true
-      },
-      "order": 0,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "value",
-          "type": "FLOAT",
-          "links": [
-            32
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "+ 1",
-      "properties": {
-        "Node name for S&R": "FloatConstant"
-      },
-      "widgets_values": [
-        1
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
-      "id": 26,
-      "type": "Int to float",
-      "pos": [
-        570,
-        450
+        1529.916524120103,
+        481.27357018829343
       ],
       "size": [
         315,
-        58
+        126
       ],
       "flags": {},
-      "order": 28,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
-          "name": "Value",
-          "type": "INT",
-          "link": 30,
+          "name": "text1",
+          "type": "STRING",
+          "link": 92,
           "widget": {
-            "name": "Value"
+            "name": "text1"
+          }
+        },
+        {
+          "name": "text2",
+          "type": "STRING",
+          "link": 91,
+          "widget": {
+            "name": "text2"
           }
         }
       ],
       "outputs": [
         {
-          "name": "FLOAT",
-          "type": "FLOAT",
+          "name": "STRING",
+          "type": "*",
           "links": [
-            31
+            93
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CR Text Concatenate"
+      },
+      "widgets_values": [
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "id": 74,
+      "type": "ttN textDebug",
+      "pos": [
+        1622.916524120103,
+        132.27357018829346
+      ],
+      "size": {
+        "0": 387.3049011230469,
+        "1": 185.71539306640625
+      },
+      "flags": {},
+      "order": 38,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 73,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            76
           ],
           "shape": 3,
           "slot_index": 0
         }
       ],
       "properties": {
-        "Node name for S&R": "Int to float"
+        "Node name for S&R": "ttN textDebug",
+        "ttNnodeVersion": "1.0."
       },
       "widgets_values": [
-        1
+        false,
+        "",
+        "Always",
+        "",
+        "A1fa, This is a close-up of the front end of a red sports car, possibly a Ferrari, with a shiny finish. The car is parked in a garage or warehouse-like setting, which adds to the overall ambiance of the image."
       ]
+    },
+    {
+      "id": 22,
+      "type": "CR Save Text To File",
+      "pos": [
+        2032.916524120103,
+        131.27357018829346
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 40,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "multiline_text",
+          "type": "STRING",
+          "link": 76,
+          "widget": {
+            "name": "multiline_text"
+          }
+        },
+        {
+          "name": "output_file_path",
+          "type": "STRING",
+          "link": 90,
+          "widget": {
+            "name": "output_file_path"
+          },
+          "slot_index": 1
+        },
+        {
+          "name": "file_name",
+          "type": "STRING",
+          "link": 93,
+          "widget": {
+            "name": "file_name"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CR Save Text To File"
+      },
+      "widgets_values": [
+        "",
+        "E:/",
+        "",
+        "txt"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "PreviewImage",
+      "pos": [
+        2187.916524120103,
+        380.27357018829343
+      ],
+      "size": {
+        "0": 232.12957763671875,
+        "1": 246
+      },
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 11
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    },
+    {
+      "id": 41,
+      "type": "Note",
+      "pos": [
+        70.91652412010184,
+        710.2735701882934
+      ],
+      "size": {
+        "0": 371.4295654296875,
+        "1": 500.6028747558594
+      },
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "Welcome to Comfy Moondream Caption, a tool designed to generate captions for images using a local LMM (Moondream). Follow the steps below to get started:\n\nSelect Image Folder:\nNavigate to the \"folder_path\" option and select the folder where your images are stored. Ensure that the images are in the supported format (e.g., PNG, JPEG).\n\nNaming Convention:\nEnsure that the images in the selected folder are sequentially numbered, such as \"0001.png\", \"0002.png\", and so on. This numbering is crucial for proper processing.\n\nEnable Batch Captioning:\nTo enable batch captioning, go to the \"Extra Options\" section in the Comfy UI.\nSelect \"Auto Queue\" to ensure that captions are generated for all images in the selected folder.\n\nGenerate Captions:\nOnce the folder and options are set, click on the \"Que Prompt\" button to initiate the caption generation process.\nComfy Moondream Caption will analyze each image in the folder and generate captions for them.\n\n\nPost-Processing:\nAfter the caption generation process is complete, it's essential to reset the start index manually to 0. This ensures that the tool starts processing from the beginning for the next dataset.\n\nRepeat for Additional Datasets:\nIf you have more datasets to analyze, repeat the process by selecting a new folder containing images and following steps 2 to 5."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 101,
+      "type": "CR Prompt Text",
+      "pos": [
+        1414,
+        439
+      ],
+      "size": {
+        "0": 389.37420654296875,
+        "1": 96
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 29,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "links": [
+            92
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "title": "000",
+      "properties": {
+        "Node name for S&R": "CR Prompt Text"
+      },
+      "widgets_values": [
+        "000"
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
     },
     {
       "id": 24,
       "type": "PrimitiveNode",
       "pos": [
-        150,
-        270
+        70.91652412010184,
+        271.27357018829343
       ],
-      "size": [
-        374.37420654296875,
-        82
-      ],
+      "size": {
+        "0": 235.1999969482422,
+        "1": 82
+      },
       "flags": {},
-      "order": 1,
+      "order": 30,
       "mode": 0,
       "outputs": [
         {
@@ -362,737 +1335,14 @@
         "Run widget replace on values": false
       },
       "widgets_values": [
-        1,
+        0,
         "increment"
-      ]
-    },
-    {
-      "id": 7,
-      "type": "LoadImagesFromDir //Inspire",
-      "pos": [
-        570,
-        130
       ],
-      "size": [
-        315,
-        170
-      ],
-      "flags": {},
-      "order": 29,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "directory",
-          "type": "STRING",
-          "link": 49,
-          "widget": {
-            "name": "directory"
-          },
-          "slot_index": 0
-        },
-        {
-          "name": "start_index",
-          "type": "INT",
-          "link": 25,
-          "widget": {
-            "name": "start_index"
-          },
-          "slot_index": 1
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            6,
-            11
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [],
-          "shape": 3,
-          "slot_index": 2
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoadImagesFromDir //Inspire"
-      },
-      "widgets_values": [
-        "",
-        1,
-        1,
-        false
-      ]
-    },
-    {
-      "id": 10,
-      "type": "PreviewImage",
-      "pos": [
-        2170,
-        130
-      ],
-      "size": [
-        232.12957763671875,
-        246
-      ],
-      "flags": {},
-      "order": 32,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 11
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "PreviewImage"
-      }
-    },
-    {
-      "id": 40,
-      "type": "CR Prompt Text",
-      "pos": [
-        150,
-        130
-      ],
-      "size": [
-        389.37420654296875,
-        96
-      ],
-      "flags": {},
-      "order": 2,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "prompt",
-          "type": "STRING",
-          "links": [
-            48,
-            49
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "show_help",
-          "type": "STRING",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "title": "folder_path",
-      "properties": {
-        "Node name for S&R": "CR Prompt Text"
-      },
-      "widgets_values": [
-        "E:\\kohya\\Alfa Romeo 33 Stradale\\birme-2048x2048 (21)"
-      ]
-    },
-    {
-      "id": 42,
-      "type": "Note",
-      "pos": [
-        500,
-        -460
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 3,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#332922",
-      "bgcolor": "#593930"
-    },
-    {
-      "id": 43,
-      "type": "Note",
-      "pos": [
-        710,
-        -260
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#332922",
-      "bgcolor": "#593930"
-    },
-    {
-      "id": 44,
-      "type": "Note",
-      "pos": [
-        710,
-        -630
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 5,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#332922",
-      "bgcolor": "#593930"
-    },
-    {
-      "id": 45,
-      "type": "Note",
-      "pos": [
-        920,
-        -630
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 6,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#332922",
-      "bgcolor": "#593930"
-    },
-    {
-      "id": 46,
-      "type": "Note",
-      "pos": [
-        1130,
-        -430
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 7,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#332922",
-      "bgcolor": "#593930"
-    },
-    {
-      "id": 47,
-      "type": "Note",
-      "pos": [
-        1330,
-        -430
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 8,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#332922",
-      "bgcolor": "#593930"
-    },
-    {
-      "id": 48,
-      "type": "Note",
-      "pos": [
-        1530,
-        -630
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 9,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#332922",
-      "bgcolor": "#593930"
-    },
-    {
-      "id": 49,
-      "type": "Note",
-      "pos": [
-        1740,
-        -630
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 10,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#332922",
-      "bgcolor": "#593930"
-    },
-    {
-      "id": 50,
-      "type": "Note",
-      "pos": [
-        1940,
-        -430
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#332922",
-      "bgcolor": "#593930"
-    },
-    {
-      "id": 51,
-      "type": "Note",
-      "pos": [
-        1730,
-        -260
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#332922",
-      "bgcolor": "#593930"
-    },
-    {
-      "id": 52,
-      "type": "Note",
-      "pos": [
-        500,
-        -820
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 13,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 53,
-      "type": "Note",
-      "pos": [
-        920,
-        -820
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 14,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 55,
-      "type": "Note",
-      "pos": [
-        1330,
-        -820
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 15,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 56,
-      "type": "Note",
-      "pos": [
-        1530,
-        -820
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 16,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 57,
-      "type": "Note",
-      "pos": [
-        1940,
-        -820
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 17,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 58,
-      "type": "Note",
-      "pos": [
-        1740,
-        -1010
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 18,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 59,
-      "type": "Note",
-      "pos": [
-        1530,
-        -1010
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 19,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 60,
-      "type": "Note",
-      "pos": [
-        1330,
-        -1010
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 20,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 61,
-      "type": "Note",
-      "pos": [
-        1130,
-        -1010
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 21,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 62,
-      "type": "Note",
-      "pos": [
-        920,
-        -1010
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 22,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 63,
-      "type": "Note",
-      "pos": [
-        710,
-        -1010
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 23,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 64,
-      "type": "Note",
-      "pos": [
-        920,
-        -1200
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 24,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 65,
-      "type": "Note",
-      "pos": [
-        1530,
-        -1200
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 25,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 54,
-      "type": "Note",
-      "pos": [
-        1130,
-        -820
-      ],
-      "size": {
-        "0": 210,
-        "1": 158.2581329345703
-      },
-      "flags": {},
-      "order": 26,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "..Credits:\nDennis Schöneberg\n\nhttps://www.linkedin.com/in/dennis-sch%C3%B6neberg-3420a2221/\n\nhttps://civitai.com/user/denrakeiw"
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 41,
-      "type": "Note",
-      "pos": [
-        150,
-        400
-      ],
-      "size": [
-        371.4295617675782,
-        500.6028833007813
-      ],
-      "flags": {},
-      "order": 27,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "Welcome to Comfy Moondream Caption, a tool designed to generate captions for images using a local LMM (Moondream). Follow the steps below to get started:\n\nSelect Image Folder:\nNavigate to the \"folder_path\" option and select the folder where your images are stored. Ensure that the images are in the supported format (e.g., PNG, JPEG).\n\nNaming Convention:\nEnsure that the images in the selected folder are sequentially numbered, such as \"1.png\", \"2.png\", and so on. This numbering is crucial for proper processing.\n\nEnable Batch Captioning:\nTo enable batch captioning, go to the \"Extra Options\" section in the Comfy UI.\nSelect \"Auto Queue\" to ensure that captions are generated for all images in the selected folder.\n\nGenerate Captions:\nOnce the folder and options are set, click on the \"Que Prompt\" button to initiate the caption generation process.\nComfy Moondream Caption will analyze each image in the folder and generate captions for them.\n\n\nPost-Processing:\nAfter the caption generation process is complete, it's essential to reset the start index manually to 0. This ensures that the tool starts processing from the beginning for the next dataset.\n\nRepeat for Additional Datasets:\nIf you have more datasets to analyze, repeat the process by selecting a new folder containing images and following steps 2 to 5."
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
+      "color": "#322",
+      "bgcolor": "#533"
     }
   ],
   "links": [
-    [
-      4,
-      4,
-      0,
-      5,
-      0,
-      "STRING"
-    ],
-    [
-      6,
-      7,
-      0,
-      4,
-      0,
-      "IMAGE"
-    ],
     [
       11,
       7,
@@ -1134,22 +1384,6 @@
       "INT,FLOAT"
     ],
     [
-      36,
-      31,
-      0,
-      22,
-      2,
-      "STRING"
-    ],
-    [
-      38,
-      5,
-      0,
-      22,
-      0,
-      "STRING"
-    ],
-    [
       47,
       28,
       0,
@@ -1158,7 +1392,63 @@
       "INT"
     ],
     [
-      48,
+      49,
+      40,
+      0,
+      7,
+      0,
+      "STRING"
+    ],
+    [
+      71,
+      67,
+      0,
+      77,
+      0,
+      "STRING"
+    ],
+    [
+      72,
+      68,
+      0,
+      77,
+      2,
+      "STRING"
+    ],
+    [
+      73,
+      77,
+      0,
+      74,
+      0,
+      "STRING"
+    ],
+    [
+      74,
+      7,
+      0,
+      78,
+      0,
+      "IMAGE"
+    ],
+    [
+      75,
+      78,
+      0,
+      77,
+      1,
+      "STRING"
+    ],
+    [
+      76,
+      74,
+      0,
+      22,
+      0,
+      "STRING"
+    ],
+    [
+      90,
       40,
       0,
       22,
@@ -1166,11 +1456,27 @@
       "STRING"
     ],
     [
-      49,
-      40,
+      91,
+      31,
       0,
-      7,
+      100,
+      1,
+      "STRING"
+    ],
+    [
+      92,
+      101,
       0,
+      100,
+      0,
+      "STRING"
+    ],
+    [
+      93,
+      100,
+      0,
+      22,
+      2,
       "STRING"
     ]
   ],
@@ -1178,10 +1484,10 @@
     {
       "title": "Comfy Moondream Caption",
       "bounding": [
-        -2,
-        -4,
-        2556,
-        1036
+        3,
+        5,
+        2553,
+        1328
       ],
       "color": "#3f789e",
       "font_size": 24,
