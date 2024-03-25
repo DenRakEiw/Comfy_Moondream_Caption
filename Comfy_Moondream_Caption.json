@@ -1,6 +1,6 @@
 {
-  "last_node_id": 101,
-  "last_link_id": 93,
+  "last_node_id": 157,
+  "last_link_id": 178,
   "nodes": [
     {
       "id": 42,
@@ -29,8 +29,8 @@
       "id": 43,
       "type": "Note",
       "pos": [
-        710,
-        -260
+        704.1435999999998,
+        -264.3922999999999
       ],
       "size": {
         "0": 210,
@@ -213,8 +213,8 @@
       "id": 51,
       "type": "Note",
       "pos": [
-        1730,
-        -260
+        1724.1436000000006,
+        -264.3922999999999
       ],
       "size": {
         "0": 210,
@@ -555,53 +555,11 @@
       "bgcolor": "#653"
     },
     {
-      "id": 78,
-      "type": "MoondreamQuery",
-      "pos": [
-        838.9165241201024,
-        131.27357018829346
-      ],
-      "size": {
-        "0": 400,
-        "1": 200
-      },
-      "flags": {},
-      "order": 34,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "images",
-          "type": "IMAGE",
-          "link": 74
-        }
-      ],
-      "outputs": [
-        {
-          "name": "text",
-          "type": "STRING",
-          "links": [
-            75
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "MoondreamQuery"
-      },
-      "widgets_values": [
-        "What is this?",
-        true,
-        "moondream2",
-        256
-      ]
-    },
-    {
-      "id": 68,
+      "id": 67,
       "type": "CR Prompt Text",
       "pos": [
-        70.91652412010184,
-        561.2735701882934
+        80,
+        250
       ],
       "size": {
         "0": 389.37420654296875,
@@ -609,6 +567,47 @@
       },
       "flags": {},
       "order": 24,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "prompt",
+          "type": "STRING",
+          "links": [
+            71
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "title": "Prefix",
+      "properties": {
+        "Node name for S&R": "CR Prompt Text"
+      },
+      "widgets_values": [
+        "Skateboard"
+      ],
+      "color": "#2a363b",
+      "bgcolor": "#3f5159"
+    },
+    {
+      "id": 68,
+      "type": "CR Prompt Text",
+      "pos": [
+        80,
+        400
+      ],
+      "size": {
+        "0": 389.37420654296875,
+        "1": 96
+      },
+      "flags": {},
+      "order": 25,
       "mode": 0,
       "outputs": [
         {
@@ -638,59 +637,141 @@
       "bgcolor": "#3f5159"
     },
     {
-      "id": 67,
-      "type": "CR Prompt Text",
+      "id": 41,
+      "type": "Note",
       "pos": [
-        70.91652412010184,
-        411.27357018829343
+        80,
+        550
       ],
       "size": {
-        "0": 389.37420654296875,
-        "1": 96
+        "0": 371.4295654296875,
+        "1": 500.6028747558594
       },
       "flags": {},
-      "order": 25,
+      "order": 26,
       "mode": 0,
+      "properties": {
+        "text": ""
+      },
+      "widgets_values": [
+        "Welcome to Comfy Moondream Caption, a tool designed to generate captions for images using a local LMM (Moondream). Follow the steps below to get started:\n\nSelect Image Folder:\nNavigate to the \"folder_path\" option and select the folder where your images are stored. Ensure that the images are in the supported format (e.g., PNG, JPEG).\n\nNaming Convention:\nEnsure that the images in the selected folder are sequentially numbered, such as \"0001.png\", \"0002.png\", and so on. This numbering is crucial for proper processing.\n\nEnable Batch Captioning:\nTo enable batch captioning, go to the \"Extra Options\" section in the Comfy UI.\nSelect \"Auto Queue\" to ensure that captions are generated for all images in the selected folder.\n\nGenerate Captions:\nOnce the folder and options are set, click on the \"Que Prompt\" button to initiate the caption generation process.\nComfy Moondream Caption will analyze each image in the folder and generate captions for them.\n\n\nPost-Processing:\nAfter the caption generation process is complete, it's essential to reset the start index manually to 0. This ensures that the tool starts processing from the beginning for the next dataset.\n\nRepeat for Additional Datasets:\nIf you have more datasets to analyze, repeat the process by selecting a new folder containing images and following steps 2 to 5."
+      ],
+      "color": "#432",
+      "bgcolor": "#653"
+    },
+    {
+      "id": 157,
+      "type": "Load Image Batch",
+      "pos": [
+        500,
+        100
+      ],
+      "size": [
+        315,
+        222
+      ],
+      "flags": {},
+      "order": 28,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "path",
+          "type": "STRING",
+          "link": 171,
+          "widget": {
+            "name": "path"
+          }
+        }
+      ],
       "outputs": [
         {
-          "name": "prompt",
-          "type": "STRING",
+          "name": "image",
+          "type": "IMAGE",
           "links": [
-            71
+            173,
+            174
           ],
           "shape": 3,
           "slot_index": 0
         },
         {
-          "name": "show_help",
+          "name": "filename_text",
           "type": "STRING",
-          "links": null,
-          "shape": 3
+          "links": [
+            175
+          ],
+          "shape": 3,
+          "slot_index": 1
         }
       ],
-      "title": "Prefix",
       "properties": {
-        "Node name for S&R": "CR Prompt Text"
+        "Node name for S&R": "Load Image Batch"
       },
       "widgets_values": [
-        "A1fa"
+        "incremental_image",
+        0,
+        "",
+        "",
+        "*",
+        "false",
+        "true"
+      ]
+    },
+    {
+      "id": 78,
+      "type": "MoondreamQuery",
+      "pos": [
+        850,
+        100
       ],
-      "color": "#2a363b",
-      "bgcolor": "#3f5159"
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {},
+      "order": 29,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 173
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            75
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "MoondreamQuery"
+      },
+      "widgets_values": [
+        "What is this?",
+        true,
+        "moondream2",
+        256
+      ]
     },
     {
       "id": 77,
       "type": "Text Concatenate (JPS)",
       "pos": [
-        1271.916524120103,
-        131.27357018829346
+        1290,
+        100
       ],
       "size": {
         "0": 315,
         "1": 178
       },
       "flags": {},
-      "order": 36,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -758,366 +839,18 @@
       ]
     },
     {
-      "id": 7,
-      "type": "LoadImagesFromDir //Inspire",
-      "pos": [
-        490.9165241201024,
-        131.27357018829346
-      ],
-      "size": {
-        "0": 315,
-        "1": 170
-      },
-      "flags": {},
-      "order": 31,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "directory",
-          "type": "STRING",
-          "link": 49,
-          "widget": {
-            "name": "directory"
-          },
-          "slot_index": 0
-        },
-        {
-          "name": "start_index",
-          "type": "INT",
-          "link": 25,
-          "widget": {
-            "name": "start_index"
-          },
-          "slot_index": 1
-        }
-      ],
-      "outputs": [
-        {
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": [
-            11,
-            74
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "MASK",
-          "type": "MASK",
-          "links": null,
-          "shape": 3
-        },
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [],
-          "shape": 3,
-          "slot_index": 2
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "LoadImagesFromDir //Inspire"
-      },
-      "widgets_values": [
-        "",
-        1,
-        0,
-        false
-      ]
-    },
-    {
-      "id": 40,
-      "type": "CR Prompt Text",
-      "pos": [
-        70.91652412010184,
-        131.27357018829346
-      ],
-      "size": {
-        "0": 389.37420654296875,
-        "1": 96
-      },
-      "flags": {},
-      "order": 26,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "prompt",
-          "type": "STRING",
-          "links": [
-            49,
-            90
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "show_help",
-          "type": "STRING",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "title": "folder_path",
-      "properties": {
-        "Node name for S&R": "CR Prompt Text"
-      },
-      "widgets_values": [
-        "F:\\StabilityMatrix\\Data\\Packages\\ComfyUI\\output\\al_test"
-      ],
-      "color": "#322",
-      "bgcolor": "#533"
-    },
-    {
-      "id": 26,
-      "type": "Int to float",
-      "pos": [
-        488.9165241201024,
-        498.27357018829343
-      ],
-      "size": {
-        "0": 315,
-        "1": 58
-      },
-      "flags": {},
-      "order": 32,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "Value",
-          "type": "INT",
-          "link": 30,
-          "widget": {
-            "name": "Value"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "FLOAT",
-          "type": "FLOAT",
-          "links": [
-            31
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "Int to float"
-      },
-      "widgets_values": [
-        0
-      ]
-    },
-    {
-      "id": 30,
-      "type": "FloatConstant",
-      "pos": [
-        707.9165241201024,
-        619.2735701882934
-      ],
-      "size": {
-        "0": 210,
-        "1": 58
-      },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 27,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "value",
-          "type": "FLOAT",
-          "links": [
-            32
-          ],
-          "shape": 3,
-          "slot_index": 0
-        }
-      ],
-      "title": "+ 1",
-      "properties": {
-        "Node name for S&R": "FloatConstant"
-      },
-      "widgets_values": [
-        1
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
-      "id": 28,
-      "type": "SimpleMath+",
-      "pos": [
-        845.9165241201024,
-        500.27357018829343
-      ],
-      "size": {
-        "0": 315,
-        "1": 78
-      },
-      "flags": {},
-      "order": 35,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "a",
-          "type": "INT,FLOAT",
-          "link": 31
-        },
-        {
-          "name": "b",
-          "type": "INT,FLOAT",
-          "link": 32,
-          "slot_index": 1
-        }
-      ],
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            47
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "FLOAT",
-          "type": "FLOAT",
-          "links": [],
-          "shape": 3,
-          "slot_index": 1
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "SimpleMath+"
-      },
-      "widgets_values": [
-        "a+b"
-      ]
-    },
-    {
-      "id": 31,
-      "type": "CR Integer To String",
-      "pos": [
-        1186.916524120103,
-        500.27357018829343
-      ],
-      "size": {
-        "0": 315,
-        "1": 78
-      },
-      "flags": {},
-      "order": 37,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "int_",
-          "type": "INT",
-          "link": 47,
-          "widget": {
-            "name": "int_"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "STRING",
-          "links": [
-            91
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "show_help",
-          "type": "STRING",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CR Integer To String"
-      },
-      "widgets_values": [
-        0
-      ]
-    },
-    {
-      "id": 100,
-      "type": "CR Text Concatenate",
-      "pos": [
-        1529.916524120103,
-        481.27357018829343
-      ],
-      "size": [
-        315,
-        126
-      ],
-      "flags": {},
-      "order": 39,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "text1",
-          "type": "STRING",
-          "link": 92,
-          "widget": {
-            "name": "text1"
-          }
-        },
-        {
-          "name": "text2",
-          "type": "STRING",
-          "link": 91,
-          "widget": {
-            "name": "text2"
-          }
-        }
-      ],
-      "outputs": [
-        {
-          "name": "STRING",
-          "type": "*",
-          "links": [
-            93
-          ],
-          "shape": 3,
-          "slot_index": 0
-        },
-        {
-          "name": "show_help",
-          "type": "STRING",
-          "links": null,
-          "shape": 3
-        }
-      ],
-      "properties": {
-        "Node name for S&R": "CR Text Concatenate"
-      },
-      "widgets_values": [
-        "",
-        "",
-        ""
-      ]
-    },
-    {
       "id": 74,
       "type": "ttN textDebug",
       "pos": [
-        1622.916524120103,
-        132.27357018829346
+        1630,
+        100
       ],
-      "size": {
-        "0": 387.3049011230469,
-        "1": 185.71539306640625
-      },
+      "size": [
+        390,
+        230
+      ],
       "flags": {},
-      "order": 38,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
@@ -1148,23 +881,124 @@
         false,
         "",
         "Always",
+        "Skateboard, This is a skateboard featuring a skull and a woman's head, with a snake wrapped around the skull's face. The design is colorful and visually striking, making it an eye-catching piece of skateboarding gear.",
+        "Skateboard, This is a skateboard featuring a skull and a woman's head, with a snake wrapped around the skull's face. The design is colorful and visually striking, making it an eye-catching piece of skateboarding gear."
+      ]
+    },
+    {
+      "id": 147,
+      "type": "CR Text Replace",
+      "pos": [
+        850,
+        370
+      ],
+      "size": [
+        400,
+        222
+      ],
+      "flags": {},
+      "order": 31,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 175,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "*",
+          "links": [
+            177
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "show_help",
+          "type": "STRING",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CR Text Replace"
+      },
+      "widgets_values": [
         "",
-        "A1fa, This is a close-up of the front end of a red sports car, possibly a Ferrari, with a shiny finish. The car is parked in a garage or warehouse-like setting, which adds to the overall ambiance of the image."
+        ".jpeg",
+        "",
+        ".png",
+        "",
+        ".webp",
+        ""
+      ]
+    },
+    {
+      "id": 128,
+      "type": "ttN textDebug",
+      "pos": [
+        1630,
+        390
+      ],
+      "size": [
+        390,
+        200
+      ],
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 177,
+          "widget": {
+            "name": "text"
+          }
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "links": [
+            178
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ttN textDebug",
+        "ttNnodeVersion": "1.0."
+      },
+      "widgets_values": [
+        false,
+        "",
+        "Always",
+        "2",
+        "60"
       ]
     },
     {
       "id": 22,
       "type": "CR Save Text To File",
       "pos": [
-        2032.916524120103,
-        131.27357018829346
+        2060,
+        100
       ],
       "size": {
         "0": 400,
         "1": 200
       },
       "flags": {},
-      "order": 40,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
@@ -1187,7 +1021,7 @@
         {
           "name": "file_name",
           "type": "STRING",
-          "link": 93,
+          "link": 178,
           "widget": {
             "name": "file_name"
           }
@@ -1212,24 +1046,24 @@
       ]
     },
     {
-      "id": 10,
+      "id": 152,
       "type": "PreviewImage",
       "pos": [
-        2187.916524120103,
-        380.27357018829343
+        2060,
+        360
       ],
-      "size": {
-        "0": 232.12957763671875,
-        "1": 246
-      },
+      "size": [
+        382.8225200653078,
+        328.37495117187507
+      ],
       "flags": {},
-      "order": 33,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
           "name": "images",
           "type": "IMAGE",
-          "link": 11
+          "link": 174
         }
       ],
       "properties": {
@@ -1237,50 +1071,26 @@
       }
     },
     {
-      "id": 41,
-      "type": "Note",
-      "pos": [
-        70.91652412010184,
-        710.2735701882934
-      ],
-      "size": {
-        "0": 371.4295654296875,
-        "1": 500.6028747558594
-      },
-      "flags": {},
-      "order": 28,
-      "mode": 0,
-      "properties": {
-        "text": ""
-      },
-      "widgets_values": [
-        "Welcome to Comfy Moondream Caption, a tool designed to generate captions for images using a local LMM (Moondream). Follow the steps below to get started:\n\nSelect Image Folder:\nNavigate to the \"folder_path\" option and select the folder where your images are stored. Ensure that the images are in the supported format (e.g., PNG, JPEG).\n\nNaming Convention:\nEnsure that the images in the selected folder are sequentially numbered, such as \"0001.png\", \"0002.png\", and so on. This numbering is crucial for proper processing.\n\nEnable Batch Captioning:\nTo enable batch captioning, go to the \"Extra Options\" section in the Comfy UI.\nSelect \"Auto Queue\" to ensure that captions are generated for all images in the selected folder.\n\nGenerate Captions:\nOnce the folder and options are set, click on the \"Que Prompt\" button to initiate the caption generation process.\nComfy Moondream Caption will analyze each image in the folder and generate captions for them.\n\n\nPost-Processing:\nAfter the caption generation process is complete, it's essential to reset the start index manually to 0. This ensures that the tool starts processing from the beginning for the next dataset.\n\nRepeat for Additional Datasets:\nIf you have more datasets to analyze, repeat the process by selecting a new folder containing images and following steps 2 to 5."
-      ],
-      "color": "#432",
-      "bgcolor": "#653"
-    },
-    {
-      "id": 101,
+      "id": 40,
       "type": "CR Prompt Text",
       "pos": [
-        1414,
-        439
+        80,
+        100
       ],
       "size": {
         "0": 389.37420654296875,
         "1": 96
       },
-      "flags": {
-        "collapsed": true
-      },
-      "order": 29,
+      "flags": {},
+      "order": 27,
       "mode": 0,
       "outputs": [
         {
           "name": "prompt",
           "type": "STRING",
           "links": [
-            92
+            90,
+            171
           ],
           "shape": 3,
           "slot_index": 0
@@ -1292,113 +1102,18 @@
           "shape": 3
         }
       ],
-      "title": "000",
+      "title": "folder_path",
       "properties": {
         "Node name for S&R": "CR Prompt Text"
       },
       "widgets_values": [
-        "000"
-      ],
-      "color": "#232",
-      "bgcolor": "#353"
-    },
-    {
-      "id": 24,
-      "type": "PrimitiveNode",
-      "pos": [
-        70.91652412010184,
-        271.27357018829343
-      ],
-      "size": {
-        "0": 235.1999969482422,
-        "1": 82
-      },
-      "flags": {},
-      "order": 30,
-      "mode": 0,
-      "outputs": [
-        {
-          "name": "INT",
-          "type": "INT",
-          "links": [
-            25,
-            30
-          ],
-          "slot_index": 0,
-          "widget": {
-            "name": "start_index"
-          }
-        }
-      ],
-      "title": "Start Index - Reset to 0 !!!",
-      "properties": {
-        "Run widget replace on values": false
-      },
-      "widgets_values": [
-        0,
-        "increment"
+        "E:\\kohya\\skateboard\\scaled\\birme-autox2024 (5)"
       ],
       "color": "#322",
       "bgcolor": "#533"
     }
   ],
   "links": [
-    [
-      11,
-      7,
-      0,
-      10,
-      0,
-      "IMAGE"
-    ],
-    [
-      25,
-      24,
-      0,
-      7,
-      1,
-      "INT"
-    ],
-    [
-      30,
-      24,
-      0,
-      26,
-      0,
-      "INT"
-    ],
-    [
-      31,
-      26,
-      0,
-      28,
-      0,
-      "INT,FLOAT"
-    ],
-    [
-      32,
-      30,
-      0,
-      28,
-      1,
-      "INT,FLOAT"
-    ],
-    [
-      47,
-      28,
-      0,
-      31,
-      0,
-      "INT"
-    ],
-    [
-      49,
-      40,
-      0,
-      7,
-      0,
-      "STRING"
-    ],
     [
       71,
       67,
@@ -1422,14 +1137,6 @@
       74,
       0,
       "STRING"
-    ],
-    [
-      74,
-      7,
-      0,
-      78,
-      0,
-      "IMAGE"
     ],
     [
       75,
@@ -1456,24 +1163,80 @@
       "STRING"
     ],
     [
-      91,
-      31,
-      0,
-      100,
-      1,
-      "STRING"
-    ],
-    [
-      92,
       101,
+      104,
       0,
-      100,
+      107,
       0,
       "STRING"
     ],
     [
-      93,
-      100,
+      110,
+      104,
+      0,
+      22,
+      2,
+      "STRING"
+    ],
+    [
+      131,
+      119,
+      0,
+      107,
+      0,
+      "STRING"
+    ],
+    [
+      132,
+      119,
+      0,
+      22,
+      2,
+      "STRING"
+    ],
+    [
+      171,
+      40,
+      0,
+      157,
+      0,
+      "STRING"
+    ],
+    [
+      173,
+      157,
+      0,
+      78,
+      0,
+      "IMAGE"
+    ],
+    [
+      174,
+      157,
+      0,
+      152,
+      0,
+      "IMAGE"
+    ],
+    [
+      175,
+      157,
+      1,
+      147,
+      0,
+      "STRING"
+    ],
+    [
+      177,
+      147,
+      0,
+      128,
+      0,
+      "STRING"
+    ],
+    [
+      178,
+      128,
       0,
       22,
       2,
@@ -1484,10 +1247,10 @@
     {
       "title": "Comfy Moondream Caption",
       "bounding": [
-        3,
-        5,
-        2553,
-        1328
+        -1,
+        -4,
+        2549,
+        1138
       ],
       "color": "#3f789e",
       "font_size": 24,
